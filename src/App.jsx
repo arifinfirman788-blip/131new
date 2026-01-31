@@ -478,18 +478,18 @@ const App = () => {
 
             <div className="grid lg:grid-cols-12 gap-12 items-start mb-32">
               <div className="lg:col-span-7">
-                <div className="bg-slate-900 rounded-[48px] p-12 text-white shadow-xl mb-12 relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full -mr-32 -mt-32 blur-3xl" />
+                <div className="bg-white rounded-[48px] p-12 text-slate-900 border border-slate-100 shadow-sm mb-12 relative overflow-hidden">
+                  <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-50 rounded-full -mr-32 -mt-32 blur-3xl" />
                   
-                  <h4 className="text-2xl font-black mb-10 flex items-center gap-3 relative z-10">
-                    <Settings className="text-indigo-400" /> 2. SaaS 化架构与极速部署
+                  <h4 className="text-3xl font-black mb-10 flex items-center gap-3 relative z-10">
+                    <Settings className="text-indigo-600" /> 2. SaaS 化架构与极速部署
                   </h4>
                   
                   <ProgressBar 
                     date="已完成"
                     label="“酒店入驻助手”产品设计" 
                     percentage={100} 
-                    color="bg-indigo-500"
+                    color="bg-indigo-600"
                   />
                   
                   <ProgressBar 
@@ -500,20 +500,20 @@ const App = () => {
                   />
 
                   <div className="mt-12 space-y-8 relative z-10">
-                    <div className="p-8 bg-white/5 backdrop-blur-sm rounded-[32px] border border-white/10">
-                      <h5 className="font-black text-indigo-400 mb-4 tracking-tight uppercase text-sm">核心价值：实现“零门槛”入驻</h5>
-                      <p className="text-slate-300 font-medium leading-relaxed text-lg">
-                        改变传统繁琐的对接流程，通过<span className="text-white font-bold">交互式对话</span>引导酒店完成数字化配置，将部署成本降至最低。
+                    <div className="p-8 bg-indigo-50/50 rounded-[32px] border border-indigo-100">
+                      <h5 className="font-black text-indigo-600 mb-4 tracking-tight uppercase text-sm">核心价值：实现“零门槛”入驻</h5>
+                      <p className="text-slate-600 font-medium leading-relaxed text-lg">
+                        改变传统繁琐的对接流程，通过<span className="text-indigo-600 font-bold">交互式对话</span>引导酒店完成数字化配置，将部署成本降至最低。
                       </p>
                     </div>
                     
-                    <div className="flex items-center gap-6 p-6 bg-indigo-600/20 rounded-[32px] border border-indigo-500/30">
-                      <div className="w-12 h-12 bg-indigo-500 rounded-2xl flex items-center justify-center shrink-0 shadow-lg">
+                    <div className="flex items-center gap-6 p-6 bg-emerald-50 rounded-[32px] border border-emerald-100">
+                      <div className="w-12 h-12 bg-emerald-500 rounded-2xl flex items-center justify-center shrink-0 shadow-lg">
                         <Zap size={24} className="text-white" />
                       </div>
                       <div>
-                        <p className="text-white font-black">上线计划：预计年前正式发布</p>
-                        <p className="text-indigo-200 text-sm font-medium">届时酒店可实现分钟级自主入驻与系统初始化</p>
+                        <p className="text-slate-900 font-black">上线计划：预计年前正式发布</p>
+                        <p className="text-slate-500 text-sm font-medium">届时酒店可实现分钟级自主入驻与系统初始化</p>
                       </div>
                     </div>
                   </div>
